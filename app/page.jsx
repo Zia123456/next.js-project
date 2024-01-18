@@ -8,6 +8,7 @@ const Home = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolore
         tempore quis cumque voluptas beatae nobis animi vel itaque dolor.
       </p>
+      <div>Chose an option</div>
     </section>
   );
 };
