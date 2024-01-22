@@ -1,17 +1,17 @@
-import '@styles/globals.css';
+import '@styles/global.css';
 
 export const metadata = {
   title: 'Promptopia',
   description: 'Discover & Share AI Prompts',
 };
 
-const RootLayout = ({ Children }) => {
+const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body>
         <div className="main">
           <div className="gradient">
-            <main className="app">{Children}</main>
+            <main className="app">{children}</main>
           </div>
         </div>
       </body>
